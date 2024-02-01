@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#run like: bash get_data.sh <cmd file name.txt> <nohup out container file.txt> <data output file.txt>  
+
 # Check if three arguments are provided
 if [ "$#" -ne 3 ]; then
     echo "Usage: $0 <filename> <nohupfilename> <outputfilename>"
